@@ -1,16 +1,16 @@
 # KDV API
 
 ## Set up 
-`pip install flask`
-`pip install libkdv`
+```pip install flask```
+```pip install libkdv```
 
 ## Run
-    run app.py file 
+    run `app.py` file 
     
 ## Example: 
 
 ### Request:     
-    URL: http://127.0.0.1:5000/generate METHOD: POST
+    URL: `http://127.0.0.1:5000/generate` METHOD: `POST`
         body structure (example):
 ```
             {
