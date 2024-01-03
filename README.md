@@ -1,11 +1,20 @@
 # KDV API
 
 ## Set up 
-```pip install flask```
-```pip install libkdv```
+1. Install flask
+```
+pip install flask
+```
+2. Install libkdv
+```
+pip install libkdv
+```
 
 ## Run
-    run `app.py` file 
+Start the server
+```
+py app.py
+```
     
 ## Example: 
 
