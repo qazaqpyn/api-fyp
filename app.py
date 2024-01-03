@@ -1,7 +1,9 @@
 from flask import Flask, request, json
+from flask_cors import CORS
 from kdv import gen_kdv, gen_spa_kdv
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route("/")
 def index():
