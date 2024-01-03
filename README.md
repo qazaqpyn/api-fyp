@@ -9,6 +9,11 @@ pip install flask
 ```
 pip install libkdv
 ```
+3. Install flask cors
+```
+pip install -U flask-cors
+```
+For pip error -> start with ```py -m```
 
 ## Run
 Start the server
