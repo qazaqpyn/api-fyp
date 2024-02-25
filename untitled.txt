@@ -44,3 +44,29 @@ http://127.0.0.1:5000/generate
         [109.51323, 18.234306]
     ]
 }
+
+
+import pandas as pd
+
+# Read the CSV file
+df = pd.read_csv('hainan-sanya-taxi-c.csv')
+
+# Reverse the columns
+df = df[['lat', 'lon']]
+
+# Write the DataFrame back to a CSV file
+df.to_csv('hainan-sanya-taxi-c.csv', index=False)
+
+
+
+import pandas as pd
+import numpy as np
+
+# Read the CSV file
+df = pd.read_csv('hainan-sanya-taxi-kdv.csv')
+
+# Add a new column with random numbers between 1 and 100
+df['random_number'] = np.random.randint(1, 101, df.shape[0])
+
+# Write the DataFrame back to a CSV file
+df.to_csv('hainan-sanya-taxi-stkdv.csv', index=False)
